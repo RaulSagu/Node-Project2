@@ -1,0 +1,33 @@
+{
+  "name": "node-project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-http.js",
+  "scripts": {
+    "dev:1": "nodemon 1-http.js",
+    "dev:2": "nodemon 2-routing.js",
+    "dev:3": "node --watch 3-express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulSagu/Node-Project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RaulSagu/Node-Project2/issues"
+  },
+  "homepage": "https://github.com/RaulSagu/Node-Project2#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}

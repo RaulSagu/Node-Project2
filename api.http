@@ -1,0 +1,12 @@
+### Para obtener información de un Pokémon específico, puedes usar el siguiente endpoint:
+GET http://localhost:3000/pokemon/ditto
+
+### Para Crear un nuevo Pokémon, puedes usar el siguiente endpoint:
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "moves": ["transform", "tackle", "double-edge"]
+}
